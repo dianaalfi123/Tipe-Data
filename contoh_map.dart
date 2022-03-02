@@ -28,9 +28,9 @@ mapStringDynamic() {
   //pertama key ,kedua value
   Map<String, dynamic> biodata = {
     "nama": "Rizki",
-    "alamat": "Jalan kebon",
-    "umur": 20,
-    "hobi": ['nonton', 'makan', 'tidur']
+    "alamat": "Jalan kebon", //type String
+    "umur": 20, //type int
+    "hobi": ['nonton', 'makan', 'tidur'] //type List
   };
   print(biodata['nama']);
   print(biodata['alamat']);
